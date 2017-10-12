@@ -41,9 +41,9 @@ brew install composer
 brew install php-cs-fixer
 brew install php-code-sniffer
 
-# Install Valet
-composer global require laravel/valet
-composer global require laravel/envoy
+# Install Composer utilities
+composer global require hirak/prestissimo
+composer global require laravel/installer laravel/valet laravel/envoy
 valet install
 mkdir -p ~/Projects
 valet park ~/Projects
