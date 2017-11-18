@@ -48,6 +48,8 @@ mas install 715768417	# Microsoft Remote Desktop
 mas install 409203825	# Numbers
 mas install 409201541	# Pages
 mas install 803453959	# Slack
+mas install 1278508951 	# Trello
+mas install 1284863847	# Unsplash Wallpapers
 mas install 461369673	# Vox
 mas install 1000397973	# Wallcat
 mas install 410628904	# Wunderlist
