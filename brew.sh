@@ -31,7 +31,7 @@ brew install wget
 brew install zsh
 brew install zsh-completions
 brew install speedtest-cli
-brew install youtube-dl
+# brew install youtube-dl
 
 # Install binaries
 brew install git
@@ -52,7 +52,7 @@ mkdir -p ~/Projects
 valet park ~/Projects
 
 # Install Java
-# brew install jave
+# brew install java
 
 # Install databases
 brew install mariadb
