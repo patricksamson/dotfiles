@@ -24,6 +24,7 @@ brew tap "caskroom/cask"
 brew tap "caskroom/fonts"
 brew tap "caskroom/versions"
 brew tap "caskroom/drivers"
+brew tap "buo/cask-upgrade"
 
 # Install tools
 brew install wget
@@ -34,6 +35,8 @@ brew install youtube-dl
 
 # Install binaries
 brew install git
+brew install git-lfs
+git lfs install
 
 # Install PHP
 brew install php71
