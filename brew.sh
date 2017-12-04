@@ -39,7 +39,7 @@ brew install git-lfs
 git lfs install
 
 # Install PHP
-brew install php71
+brew install php72
 brew install composer
 brew install php-cs-fixer
 brew install php-code-sniffer
