@@ -43,6 +43,7 @@ mas install 1091189122	# Bear
 mas install 1039633667	# Irvue
 mas install 402989379	# iStudiez Pro
 mas install 409183694	# Keynote
+mas install 926036361	# LastPass
 mas install 1039598025	# Lockdown
 mas install 715768417	# Microsoft Remote Desktop
 mas install 409203825	# Numbers
