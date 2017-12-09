@@ -2,7 +2,7 @@
 
 # Install applications using brew cask
 brew cask install appcleaner
-brew cask install beardespice
+brew cask install beardspice
 brew cask install bettertouchtool
 brew cask install calibre
 brew cask install cakebrew
