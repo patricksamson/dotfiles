@@ -62,8 +62,8 @@ brew install node
 brew install yarn
 
 # Fonts
-brew cask "font-hack"
-brew cask "font-fira-code"
+brew cask install font-hack
+brew cask install font-fira-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
