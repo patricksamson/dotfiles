@@ -222,6 +222,15 @@ defaults write com.apple.commerce AutoUpdateRestartRequired -bool false
 
 
 ###############################################################################
+# Accounts                                                                    #
+###############################################################################
+
+# Disable Guest account
+defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -bool NO
+defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server AllowGuestAccess -bool NO
+
+
+###############################################################################
 # Photos                                                                      #
 ###############################################################################
 
