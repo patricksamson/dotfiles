@@ -67,3 +67,22 @@ brew cask install font-fira-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+
+
+# Configure Zsh
+
+#switch to Zsh
+zsh
+
+# install Prezto
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+
+# Create configuration files
+setopt EXTENDED_GLOB
+for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+done
+
+# Make Zsh the default shell
+chsh -s /bin/zsh
