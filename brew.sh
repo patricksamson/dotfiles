@@ -47,6 +47,8 @@ brew install php-code-sniffer
 # Install Composer utilities
 composer global require hirak/prestissimo
 composer global require laravel/installer laravel/valet laravel/envoy
+
+export PATH="$PATH:$HOME/.composer/vendor/bin"
 valet install
 mkdir -p ~/Projects
 valet park ~/Projects
