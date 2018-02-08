@@ -28,6 +28,7 @@ brew tap "buo/cask-upgrade"
 
 # Install tools
 brew install wget
+brew install thefuck
 brew install zsh
 brew install zsh-completions
 brew install speedtest-cli
@@ -41,6 +42,7 @@ git lfs install
 # Install PHP
 brew install php72
 brew install composer
+brew install phpunit
 brew install php-cs-fixer
 brew install php-code-sniffer
 
