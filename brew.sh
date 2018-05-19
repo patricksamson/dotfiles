@@ -2,7 +2,9 @@
 
 source ./utils.sh
 
-# Install command-line tools using Homebrew.
+###############################################################################
+# Install command-line tools using Homebrew                                   #
+###############################################################################
 
 # Install Homebrew
 if type_exists 'brew'; then
@@ -28,13 +30,13 @@ brew tap "buo/cask-upgrade"
 
 # Install tools
 brew install wget
-brew install thefuck
+# brew install thefuck
 brew install zsh
 brew install zsh-completions
 brew install speedtest-cli
 # brew install youtube-dl
 
-# Install binaries
+# Install Git
 brew install git
 brew install git-lfs
 git lfs install
@@ -48,8 +50,8 @@ cp ./editorconfig ~/.editorconfig
 brew install php72
 brew install composer
 brew install phpunit
-brew install php-cs-fixer
 brew install php-code-sniffer
+brew install php-cs-fixer
 
 # Install Composer utilities
 composer global require hirak/prestissimo
@@ -78,14 +80,15 @@ brew cask install font-fira-code
 brew cleanup
 
 
+###############################################################################
+# Configure Zsh                                                               #
+###############################################################################
 
-# Configure Zsh
-
-#switch to Zsh
+# Switch to Zsh to run the following commands
 zsh
 
-# install Prezto
-git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+# Install Prezto
+git clone --recursive https://github.com/Lykegenes/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
 # Create configuration files
 setopt EXTENDED_GLOB
