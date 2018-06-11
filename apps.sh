@@ -8,7 +8,7 @@ brew cask install appcleaner
 brew cask install beardedspice
 brew cask install bettertouchtool
 brew cask install calibre
-brew cask install cakebrew
+# brew cask install cakebrew
 brew cask install imageoptim
 brew cask install iina
 brew cask install insomnia
@@ -18,8 +18,8 @@ brew cask install insomnia
 brew cask install otp-auth
 brew cask install rescuetime
 brew cask install safari-technology-preview # From caskroom/versions
-brew cask install scroll-reverser
 brew cask install sequel-pro
+brew cask install smooze
 brew cask install sublime-text-dev # From caskroom/versions
 brew cask install steam
 brew cask install steveschow-gfxcardstatus # gfxcardstatus is not maintained anymore
@@ -29,7 +29,7 @@ brew cask install tower
 
 # Install various drivers. Uncomment as needed
 # brew cask install displaylink
-brew cask install logitech-control-center
+# brew cask install logitech-control-center
 # brew cask install nvidia-web-driver
 # brew cask install tomtom-sports-connect
 
@@ -44,13 +44,15 @@ brew install mas
 # Print the Apple account currently in use, or log into one?
 mas account
 
+mas install 1333542190		# 1Password 7
 mas install 477670270		# 2Do
 mas install 1055307502		# 2STP Companion
 mas install 918858936		# Airmail 3
 # mas install 1091189122	# Bear
-mas install 732710998		# Enpass
+# mas install 732710998		# Enpass
 # mas install 1039633667	# Irvue
-mas install 402989379		# iStudiez Pro
+# mas install 402989379		# iStudiez Pro
+# mas install 1335413823	# Ka-Block!
 mas install 409183694		# Keynote
 # mas install 926036361		# LastPass
 # mas install 1039598025	# Lockdown
