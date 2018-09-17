@@ -30,11 +30,10 @@ brew tap "buo/cask-upgrade"
 
 # Install tools
 brew install wget
-# brew install thefuck
 brew install zsh
 brew install zsh-completions
 brew install speedtest-cli
-# brew install youtube-dl
+brew install youtube-dl
 
 # Install Git
 brew install git
@@ -75,6 +74,9 @@ brew install yarn
 # Fonts
 brew cask install font-hack
 brew cask install font-fira-code
+
+# Media players
+brew install mpv
 
 # Remove outdated versions from the cellar.
 brew cleanup
