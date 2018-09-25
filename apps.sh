@@ -10,6 +10,7 @@ brew cask install bettertouchtool
 brew cask install calibre
 # brew cask install cakebrew
 brew cask install google-cloud-sdk
+brew cask install mounty # Mount NTFS drives
 brew cask install imageoptim
 brew cask install iina
 # brew cask install insomnia
