@@ -34,13 +34,12 @@ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # Disable Resume system-wide (Restore the application state on system reboot)
-# defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
+defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
 
 # Disable automatic termination of inactive apps. (Quit apps without open windows)
 defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 
-# Reveal IP address, hostname, OS version, etc. when clicking the clock
-# in the login window
+# Reveal IP address, hostname, OS version, etc. when clicking the clock in the login window
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 # Restart automatically if the computer freezes
@@ -229,8 +228,8 @@ defaults write com.apple.commerce AutoUpdateRestartRequired -bool false
 ###############################################################################
 
 # Disable Guest account
-defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -bool NO
-defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server AllowGuestAccess -bool NO
+defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -bool false
+defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server AllowGuestAccess -bool false
 
 
 ###############################################################################
@@ -322,8 +321,7 @@ defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
 # Hide Spotlight tray-icon (and subsequent helper)
 #sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
 
-# Disable Spotlight indexing for any volume that gets mounted and has not yet
-# been indexed before.
+# Disable Spotlight indexing for any volume that gets mounted and has not yet been indexed before.
 # Use `sudo mdutil -i off "/Volumes/foo"` to stop indexing any volume.
 sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
 
