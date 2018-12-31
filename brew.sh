@@ -33,7 +33,10 @@ brew install wget
 brew install zsh
 brew install zsh-completions
 brew install speedtest-cli
+brew install prettyping
 brew install youtube-dl
+brew install mpv
+brew install darksky-weather
 
 # Install Git
 brew install git
@@ -46,7 +49,7 @@ cp ./gitignore_global ~/.gitignore_global
 cp ./editorconfig ~/.editorconfig
 
 # Install PHP
-brew install php72
+brew install php
 brew install composer
 brew install phpunit
 brew install php-code-sniffer
