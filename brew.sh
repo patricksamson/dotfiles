@@ -45,8 +45,8 @@ git lfs install
 
 # Copy config files
 rm ~/.gitignore_global
-cp ./gitignore_global ~/.gitignore_global
-cp ./editorconfig ~/.editorconfig
+cp ./.gitignore_global ~/.gitignore_global
+cp ./.editorconfig ~/.editorconfig
 
 # Install PHP
 brew install php
