@@ -21,7 +21,6 @@ brew update
 brew upgrade
 
 # Tap sources
-brew tap "homebrew/php"
 brew tap "caskroom/cask"
 brew tap "caskroom/fonts"
 brew tap "caskroom/versions"
