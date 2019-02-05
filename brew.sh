@@ -68,6 +68,8 @@ valet park ~/Projects
 
 # Install databases
 brew install mariadb
+sudo brew services restart mariadb # Run at boot, not at login
+ln -sfv /usr/local/opt/mariadb/*.plist ~/Library/LaunchAgents # Autostart using LaunchAgent
 
 # Install Node.js
 brew install node
