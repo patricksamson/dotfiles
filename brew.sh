@@ -31,11 +31,16 @@ brew tap "buo/cask-upgrade"
 brew install wget
 brew install zsh
 brew install zsh-completions
-brew install speedtest-cli
-brew install prettyping
 brew install youtube-dl
 brew install mpv
 brew install darksky-weather
+
+# Install Network Tools
+brew install arp-scan
+brew install iperf3
+brew install prettyping
+brew install speedtest-cli
+brew install wakeonlan
 
 # Install Git
 brew install git
@@ -45,6 +50,7 @@ git lfs install
 # Copy config files
 rm ~/.gitignore_global
 cp ./.gitignore_global ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
 cp ./.editorconfig ~/.editorconfig
 
 # Install PHP
