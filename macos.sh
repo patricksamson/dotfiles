@@ -93,6 +93,17 @@ sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutio
 
 
 ###############################################################################
+# Power and sleep                                                             #
+###############################################################################
+
+# Set the desired hibernation level.
+# 0 (default on laptops) : No RAM backup on disk. When the battery dies, you lose your opened stuff.
+# 3 (default on desktops) : Backup RAM to disk. The battery still drop a few % each hour, but it should wake up from sleep if it dies.
+# 25 : Writes de RAM contents on disk and then turns off. No impact to the battery, but waking from sleep is much slower.
+# For help, run `man pmset`.
+sudo pmset -a hibernatemode 3
+
+###############################################################################
 # Finder                                                                      #
 ###############################################################################
 
