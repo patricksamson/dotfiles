@@ -33,6 +33,12 @@ brew cask install tower
 # brew cask install vmware-fusion
 # brew cask install xld # X Lossless Decoder
 
+
+# Install QuickLook plugins
+brew cask install qlstephen		# Readme, License, Changelog and other known text files without an extension
+brew cask install qlmarkdown
+brew cask install quicklook-json
+
 # Install various drivers. Uncomment as needed
 # brew cask install displaylink
 # brew cask install logitech-control-center
