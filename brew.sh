@@ -26,14 +26,17 @@ brew tap "caskroom/fonts"
 brew tap "caskroom/versions"
 brew tap "caskroom/drivers"
 brew tap "buo/cask-upgrade"
+brew tap "cjbassi/gotop"
 
 # Install tools
+brew install cointop
+brew install darksky-weather
+brew install gotop
+brew install mpv
+brew install youtube-dl
 brew install wget
 brew install zsh
 brew install zsh-completions
-brew install youtube-dl
-brew install mpv
-brew install darksky-weather
 
 # Install Network Tools
 brew install arp-scan
