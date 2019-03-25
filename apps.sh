@@ -7,7 +7,7 @@
 # brew cask install alfred
 brew cask install anydesk
 brew cask install appcleaner
-brew cask install balenaetcher
+#brew cask install balenaetcher
 brew cask install beardedspice
 brew cask install bettertouchtool
 brew cask install cakebrew

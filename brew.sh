@@ -55,6 +55,8 @@ rm ~/.gitignore_global
 cp ./.gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 cp ./.editorconfig ~/.editorconfig
+# git config --global init.templatedir '~/.git_template' # Place RescueTime's post-commit hook here
+# git config --global core.hooksPath ~/.git_template/hooks
 
 # Install PHP
 brew install php
