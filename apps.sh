@@ -32,6 +32,7 @@ brew cask install teamviewer
 brew cask install the-unarchiver
 brew cask install tower
 # brew cask install vmware-fusion
+brew cask install wireshark
 # brew cask install xld # X Lossless Decoder
 
 
