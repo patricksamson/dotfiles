@@ -20,6 +20,7 @@ brew cask install imageoptim
 # brew cask install insomnia
 brew cask install intel-power-gadget
 # brew cask install openemu
+brew cask install quickbooks-online
 brew cask install rescuetime
 brew cask install safari-technology-preview # From caskroom/versions
 brew cask install sequel-pro-nightly
