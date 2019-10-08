@@ -7,7 +7,7 @@
 # brew cask install alfred
 brew cask install anydesk
 brew cask install appcleaner
-#brew cask install balenaetcher
+brew cask install balenaetcher
 brew cask install beardedspice
 brew cask install bettertouchtool
 brew cask install cakebrew
@@ -35,12 +35,6 @@ brew cask install tower
 brew cask install wireshark
 # brew cask install xld # X Lossless Decoder
 
-
-# Install QuickLook plugins
-brew cask install qlstephen		# Readme, License, Changelog and other known text files without an extension
-brew cask install qlmarkdown
-brew cask install quicklook-json
-
 # Install various drivers. Uncomment as needed
 # brew cask install displaylink
 # brew cask install logitech-control-center
@@ -61,16 +55,18 @@ mas account
 mas install 1333542190		# 1Password 7
 mas install 477670270		# 2Do
 mas install 1440147259		# AdGuard for Safari
-mas install 918858936		# Airmail 3
+#mas install 918858936		# Airmail 3
 mas install 425264550		# Blackmagic Speed Test
-mas install 1320450034		# DaftCloud
+#mas install 1320450034		# DaftCloud
 mas install 1039633667		# Irvue
 # mas install 402989379		# iStudiez Pro
 # mas install 1335413823	# Ka-Block!
 mas install 409183694		# Keynote
 mas install 1295203466		# Microsoft Remote Desktop
+mas install 1059655371		# Newton
 mas install 409203825		# Numbers
 mas install 409201541		# Pages
+mas install 639968404		# Parcel
 mas install 803453959		# Slack
 mas install 747648890		# Telegram
 mas install 425424353		# The Unarchiver

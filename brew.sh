@@ -28,12 +28,8 @@ brew tap "caskroom/drivers"
 brew tap "buo/cask-upgrade"
 brew tap "cjbassi/gotop"
 
-# Install tools
-brew install cointop
-brew install darksky-weather
+# Install CLI tools
 brew install gotop
-brew install mpv
-brew install youtube-dl
 brew install wget
 brew install zsh
 brew install zsh-completions
@@ -49,6 +45,10 @@ brew install wakeonlan
 brew install git
 brew install git-lfs
 git lfs install
+
+# Install Misc utilities
+brew install cointop
+brew install darksky-weather
 
 # Copy config files
 rm ~/.gitignore_global
@@ -87,11 +87,12 @@ brew install node
 brew install yarn
 
 # Fonts
-brew cask install font-hack
+brew cask install font-hack-nerd-font # Hack Font patched with multiple icons and Powerline
 brew cask install font-fira-code
 
 # Media players
-brew install mpv
+brew cask install mpv
+brew install youtube-dl
 
 # Remove outdated versions from the cellar.
 brew cleanup
