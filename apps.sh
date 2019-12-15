@@ -13,7 +13,9 @@ brew cask install bettertouchtool
 brew cask install cakebrew
 brew cask install calibre
 brew cask install copay
+brew cask install firefox-developer-edition
 brew cask install google-cloud-sdk
+brew cask install gswitch
 # brew cask install mounty # Mount NTFS drives
 brew cask install iina
 brew cask install imageoptim
@@ -27,7 +29,7 @@ brew cask install sequel-pro-nightly
 # brew cask install smooze
 brew cask install sublime-text-dev # From caskroom/versions
 # brew cask install steam
-brew cask install steveschow-gfxcardstatus # gfxcardstatus is not maintained anymore
+brew cask install tableplus
 brew cask install teamviewer
 brew cask install the-unarchiver
 brew cask install tower
@@ -38,7 +40,6 @@ brew cask install wireshark
 # Install various drivers. Uncomment as needed
 # brew cask install displaylink
 # brew cask install logitech-control-center
-# brew cask install nvidia-web-driver
 # brew cask install tomtom-sports-connect
 
 
