@@ -45,6 +45,7 @@ brew install wakeonlan
 brew install git
 brew install git-lfs
 git lfs install
+brew install gpg
 
 # Install Misc utilities
 brew install cointop
