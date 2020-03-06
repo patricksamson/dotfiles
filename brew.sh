@@ -37,6 +37,7 @@ brew install zsh-completions
 # Install Network Tools
 brew install arp-scan
 brew install iperf3
+brew install namebench
 brew install prettyping
 brew install speedtest-cli
 brew install wakeonlan
