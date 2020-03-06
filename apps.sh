@@ -35,7 +35,7 @@ brew cask install the-unarchiver
 brew cask install tower
 # brew cask install vmware-fusion
 brew cask install wireshark
-# brew cask install xld # X Lossless Decoder
+brew cask install xld # X Lossless Decoder, converts FLAC to ALAC for iTunes playback
 
 # Install various drivers. Uncomment as needed
 # brew cask install displaylink
