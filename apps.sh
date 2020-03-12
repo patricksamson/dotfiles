@@ -58,6 +58,7 @@ mas install 477670270		# 2Do
 mas install 1440147259		# AdGuard for Safari
 #mas install 918858936		# Airmail 3
 mas install 425264550		# Blackmagic Speed Test
+mas install 1236045954		# Canary Mail
 #mas install 1320450034		# DaftCloud
 mas install 1039633667		# Irvue
 # mas install 402989379		# iStudiez Pro
