@@ -30,11 +30,11 @@ brew cask install sequel-pro-nightly
 brew cask install sublime-text-dev # From caskroom/versions
 # brew cask install steam
 brew cask install tableplus
-brew cask install teamviewer
+# brew cask install teamviewer
 brew cask install the-unarchiver
 brew cask install tower
 # brew cask install vmware-fusion
-brew cask install wireshark
+# brew cask install wireshark
 brew cask install xld # X Lossless Decoder, converts FLAC to ALAC for iTunes playback
 
 # Install various drivers. Uncomment as needed
