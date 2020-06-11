@@ -93,8 +93,13 @@ brew cask install font-hack-nerd-font # Hack Font patched with multiple icons an
 brew cask install font-fira-code
 
 # Media players
+brew cask install spotify
 brew cask install mpv
 brew install youtube-dl
+brew install Rigellute/tap/spotify-tui # A Spotify client for the terminal.
+brew install Spotifyd/tap/spotifyd # A lightweight Spotify daemon.
+# brew install Lykegenes/tap/spotifyd
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
