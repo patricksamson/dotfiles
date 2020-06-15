@@ -98,7 +98,7 @@ brew cask install mpv
 brew install youtube-dl
 brew install Rigellute/tap/spotify-tui # A Spotify client for the terminal.
 brew install Spotifyd/tap/spotifyd # A lightweight Spotify daemon.
-# brew install Lykegenes/tap/spotifyd
+# brew install patricksamson/tap/spotifyd
 
 
 # Remove outdated versions from the cellar.
@@ -113,7 +113,7 @@ brew cleanup
 zsh
 
 # Install Prezto
-git clone --recursive https://github.com/Lykegenes/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+git clone --recursive https://github.com/patricksamson/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
 # Create configuration files
 setopt EXTENDED_GLOB
