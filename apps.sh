@@ -33,6 +33,9 @@ brew cask install tableplus
 # brew cask install teamviewer
 brew cask install the-unarchiver
 brew cask install tower
+brew cask install transmission
+brew cask install ultimaker-cura
+brew cask install visual-studio-code
 # brew cask install vmware-fusion
 # brew cask install wireshark
 brew cask install xld # X Lossless Decoder, converts FLAC to ALAC for iTunes playback
