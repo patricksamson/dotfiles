@@ -22,9 +22,8 @@ brew upgrade
 
 # Tap sources
 brew tap "caskroom/cask"
-brew tap "caskroom/fonts"
-brew tap "caskroom/versions"
-brew tap "caskroom/drivers"
+brew tap "caskroom/cask-fonts"
+brew tap "caskroom/cask-versions"
 brew tap "buo/cask-upgrade"
 brew tap "cjbassi/gotop"
 
@@ -120,6 +119,3 @@ setopt EXTENDED_GLOB
 for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
-
-# Make Zsh the default shell
-chsh -s /bin/zsh
