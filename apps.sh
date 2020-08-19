@@ -13,6 +13,7 @@ brew cask install bettertouchtool
 brew cask install cakebrew
 brew cask install calibre
 brew cask install copay
+brew cask install docker
 brew cask install firefox-developer-edition
 brew cask install google-cloud-sdk
 brew cask install gswitch
@@ -22,6 +23,7 @@ brew cask install imageoptim
 # brew cask install insomnia
 brew cask install intel-power-gadget
 # brew cask install openemu
+brew cask install postman
 brew cask install quickbooks-online
 brew cask install rescuetime
 brew cask install safari-technology-preview # From caskroom/versions
