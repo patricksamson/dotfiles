@@ -27,6 +27,7 @@ brew tap "caskroom/versions"
 brew tap "caskroom/drivers"
 brew tap "buo/cask-upgrade"
 brew tap "cjbassi/gotop"
+brew tap "teamookla/speedtest"
 
 # Install CLI tools
 brew install gotop
@@ -39,7 +40,7 @@ brew install arp-scan
 brew install iperf3
 brew install namebench
 brew install prettyping
-brew install speedtest-cli
+brew install speedtest
 brew install wakeonlan
 
 # Install Git
