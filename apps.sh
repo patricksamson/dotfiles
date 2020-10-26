@@ -13,7 +13,7 @@ brew cask install bettertouchtool
 brew cask install cakebrew
 brew cask install calibre
 brew cask install copay
-brew cask install docker
+brew cask install docker-edge
 brew cask install firefox-developer-edition
 brew cask install google-chrome
 brew cask install google-cloud-sdk
@@ -23,12 +23,14 @@ brew cask install iina
 brew cask install imageoptim
 # brew cask install insomnia
 brew cask install intel-power-gadget
+brew cask install microsoft-teams
+brew cask install notion
 # brew cask install openemu
 brew cask install postman
 brew cask install quickbooks-online
 brew cask install rescuetime
 brew cask install safari-technology-preview # From caskroom/versions
-brew cask install sequel-pro-nightly
+# brew cask install sequel-pro-nightly
 # brew cask install smooze
 brew cask install sublime-text-dev # From caskroom/versions
 # brew cask install steam
