@@ -38,6 +38,8 @@ brew install zsh-completions
 brew install arp-scan
 brew install iperf3
 brew install namebench
+brew install ngrok
+brew install nmap 		# port scanning
 brew install prettyping
 brew install speedtest
 brew install wakeonlan
@@ -68,7 +70,7 @@ brew install php-code-sniffer
 brew install php-cs-fixer
 
 # Install Composer utilities
-composer global require hirak/prestissimo
+# composer global require hirak/prestissimo
 composer global require laravel/installer laravel/valet laravel/envoy
 
 export PATH="$PATH:$HOME/.composer/vendor/bin"
