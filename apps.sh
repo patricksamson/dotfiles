@@ -62,7 +62,11 @@ mas install 477670270		# 2Do
 mas install 1440147259		# AdGuard for Safari
 mas install 425264550		# Blackmagic Speed Test
 mas install 1236045954		# Canary Mail
+mas install 290986013       # Deliveries
+mas install 975937182       # Fantastical
+mas install 1544743900      # Hush
 mas install 1039633667		# Irvue
+mas install 1475897096      # Jira
 mas install 409183694		# Keynote
 mas install 926036361       # LastPass
 mas install 1295203466		# Microsoft Remote Desktop
@@ -70,6 +74,7 @@ mas install 409203825		# Numbers
 mas install 409201541		# Pages
 mas install 639968404		# Parcel
 mas install 803453959		# Slack
+mas install 1509611686      # Spaces
 mas install 747648890		# Telegram
 mas install 425424353		# The Unarchiver
 mas install 1284863847		# Unsplash Wallpapers
