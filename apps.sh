@@ -44,7 +44,7 @@ brew cask install visual-studio-code
 # brew cask install vmware-fusion
 # brew cask install wireshark
 # brew cask install xld # X Lossless Decoder, converts FLAC to ALAC for iTunes playback
-brew cask install zoomus # Zoom.us
+brew cask install zoom
 
 
 ###############################################################################
