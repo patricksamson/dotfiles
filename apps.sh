@@ -8,14 +8,14 @@
 brew cask install anydesk
 brew cask install appcleaner
 brew cask install balenaetcher
-brew cask install beardedspice
+# brew cask install beardedspice
 brew cask install bettertouchtool
 brew cask install cakebrew
 brew cask install calibre
 brew cask install copay
 brew cask install docker-edge
 brew cask install firefox-developer-edition
-brew cask install google-chrome
+# brew cask install google-chrome
 brew cask install google-cloud-sdk
 brew cask install gswitch
 # brew cask install mounty # Mount NTFS drives
@@ -24,7 +24,7 @@ brew cask install imageoptim
 # brew cask install insomnia
 brew cask install intel-power-gadget
 brew cask install microsoft-teams
-brew cask install notion
+# brew cask install notion
 # brew cask install openemu
 brew cask install postman
 brew cask install quickbooks-online
@@ -62,6 +62,7 @@ mas install 477670270		# 2Do
 mas install 1440147259		# AdGuard for Safari
 mas install 425264550		# Blackmagic Speed Test
 mas install 1236045954		# Canary Mail
+mas install 1364502317      # Clockify
 mas install 290986013       # Deliveries
 mas install 975937182       # Fantastical
 mas install 1544743900      # Hush
