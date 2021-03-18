@@ -30,7 +30,6 @@ brew cask install postman
 brew cask install quickbooks-online
 brew cask install rescuetime
 brew cask install safari-technology-preview # From caskroom/versions
-# brew cask install sequel-pro-nightly
 # brew cask install smooze
 brew cask install sublime-text-dev # From caskroom/versions
 # brew cask install steam
@@ -74,6 +73,7 @@ mas install 1295203466		# Microsoft Remote Desktop
 mas install 409203825		# Numbers
 mas install 409201541		# Pages
 mas install 639968404		# Parcel
+mas install 1518036000      # Sequel Ace
 mas install 803453959		# Slack
 mas install 1509611686      # Spaces
 mas install 747648890		# Telegram
