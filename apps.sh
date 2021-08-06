@@ -7,12 +7,12 @@
 # brew cask install alfred
 brew cask install anydesk
 brew cask install appcleaner
-brew cask install balenaetcher
+# brew cask install balenaetcher
 # brew cask install beardedspice
 brew cask install bettertouchtool
-brew cask install cakebrew
-brew cask install calibre
-brew cask install copay
+# brew cask install cakebrew
+# brew cask install calibre
+# brew cask install discord
 brew cask install docker-edge
 brew cask install firefox-developer-edition
 # brew cask install google-chrome
@@ -24,13 +24,14 @@ brew cask install imageoptim
 # brew cask install insomnia
 brew cask install intel-power-gadget
 brew cask install microsoft-teams
-# brew cask install notion
+brew cask install ngrok
 # brew cask install openemu
 brew cask install postman
-brew cask install quickbooks-online
 brew cask install rescuetime
 brew cask install safari-technology-preview # From caskroom/versions
+brew cask install setapp
 # brew cask install smooze
+brew cask install spotify
 brew cask install sublime-text-dev # From caskroom/versions
 # brew cask install steam
 brew cask install tableplus
