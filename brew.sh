@@ -44,11 +44,18 @@ brew install prettyping
 brew install speedtest
 brew install wakeonlan
 
+# DevOps
+brew install \
+	ansible \
+	ansible-lint \
+	azure-cli
+
 # Install Git
 brew install git
 brew install git-lfs
 git lfs install
 brew install gpg
+brew install gh 	# GitHub CLI tool
 
 # Install Misc utilities
 brew install cointop
