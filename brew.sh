@@ -59,7 +59,8 @@ brew install gh 	# GitHub CLI tool
 
 # Install Misc utilities
 brew install cointop
-brew install darksky-weather
+brew tap tarkah/tickrs
+brew install tickrs
 
 # Copy config files
 rm ~/.gitignore_global
