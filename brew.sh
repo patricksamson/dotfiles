@@ -99,8 +99,10 @@ brew install node
 brew install yarn
 
 # Fonts
-brew cask install font-hack-nerd-font # Hack Font patched with multiple icons and Powerline
-brew cask install font-fira-code
+brew install font-hack-nerd-font # Hack Font patched with multiple icons and Powerline
+brew install font-fira-code
+brew install font-iosevka # View all variants : `brew search font-iosevka`
+brew install font-iosevka-nerd-font # Iosevka patched for Powerline
 
 # Media players
 brew cask install spotify
