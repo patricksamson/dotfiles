@@ -7,6 +7,7 @@
 # brew cask install alfred
 brew cask install anydesk
 brew cask install appcleaner
+brew cask install autodesk-fusion360
 # brew cask install balenaetcher
 # brew cask install beardedspice
 brew cask install bettertouchtool
@@ -26,11 +27,12 @@ brew cask install intel-power-gadget
 brew cask install microsoft-teams
 brew cask install ngrok
 # brew cask install openemu
+brew cask install openscad
 brew cask install postman
 brew cask install rescuetime
 brew cask install safari-technology-preview # From caskroom/versions
 brew cask install setapp
-# brew cask install smooze
+brew cask install smooze
 brew cask install spotify
 brew cask install sublime-text-dev # From caskroom/versions
 # brew cask install steam
@@ -74,6 +76,7 @@ mas install 1295203466		# Microsoft Remote Desktop
 mas install 409203825		# Numbers
 mas install 409201541		# Pages
 mas install 639968404		# Parcel
+mas install 1515445551		# Pi-hole Remote
 mas install 1518036000      # Sequel Ace
 mas install 803453959		# Slack
 mas install 1509611686      # Spaces
@@ -81,7 +84,7 @@ mas install 747648890		# Telegram
 mas install 425424353		# The Unarchiver
 mas install 1284863847		# Unsplash Wallpapers
 # mas install 461369673		# Vox
-mas install 1000397973		# Wallcat
+# mas install 1000397973	# Wallcat
 # mas install 497799835		# Xcode
 
 
