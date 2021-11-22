@@ -10,7 +10,7 @@ source ./utils.sh
 if type_exists 'brew'; then
 	e_success "Homebrew good to go."
 else
-	e_error "Git should be installed. It isn't. Aborting."
+	e_error "Homebrew should be installed. It isn't. Aborting."
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	exit 1
 fi
