@@ -30,11 +30,11 @@ brew install ngrok
 brew install openscad
 brew install postman
 brew install rescuetime
-brew install safari-technology-preview # From caskroom/versions
+brew install safari-technology-preview # From homebrew/versions
 brew install setapp
 brew install smooze
 brew install spotify
-brew install sublime-text-dev # From caskroom/versions
+brew install sublime-text # From homebrew/versions
 # brew install steam
 brew install tableplus
 # brew install teamviewer
