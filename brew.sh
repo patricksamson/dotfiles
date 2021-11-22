@@ -22,7 +22,7 @@ brew upgrade
 
 # Tap sources
 brew tap homebrew/cask-fonts
-brew tap "caskroom/cask-versions"
+brew tap homebrew/cask-versions
 brew tap "buo/cask-upgrade"
 brew tap "cjbassi/gotop"
 brew tap "teamookla/speedtest"
