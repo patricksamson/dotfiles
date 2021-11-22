@@ -1,52 +1,52 @@
 #!/usr/bin/env bash
 
 ###############################################################################
-# Install applications using brew cask                                        #
+# Install applications using brew                                             #
 ###############################################################################
 
-# brew cask install alfred
-brew cask install anydesk
-brew cask install appcleaner
-brew cask install autodesk-fusion360
-# brew cask install balenaetcher
-# brew cask install beardedspice
-brew cask install bettertouchtool
-# brew cask install cakebrew
-# brew cask install calibre
-# brew cask install discord
-brew cask install docker-edge
-brew cask install firefox-developer-edition
-# brew cask install google-chrome
-brew cask install google-cloud-sdk
-brew cask install gswitch
-# brew cask install mounty # Mount NTFS drives
-brew cask install iina
-brew cask install imageoptim
-# brew cask install insomnia
-brew cask install intel-power-gadget
-brew cask install microsoft-teams
-brew cask install ngrok
-# brew cask install openemu
-brew cask install openscad
-brew cask install postman
-brew cask install rescuetime
-brew cask install safari-technology-preview # From caskroom/versions
-brew cask install setapp
-brew cask install smooze
-brew cask install spotify
-brew cask install sublime-text-dev # From caskroom/versions
-# brew cask install steam
-brew cask install tableplus
-# brew cask install teamviewer
-brew cask install the-unarchiver
-brew cask install tower
-brew cask install transmission
-brew cask install ultimaker-cura
-brew cask install visual-studio-code
-# brew cask install vmware-fusion
-# brew cask install wireshark
-# brew cask install xld # X Lossless Decoder, converts FLAC to ALAC for iTunes playback
-brew cask install zoom
+# brew install alfred
+brew install anydesk
+brew install appcleaner
+brew install autodesk-fusion360
+# brew install balenaetcher
+# brew install beardedspice
+brew install bettertouchtool
+# brew install cakebrew
+# brew install calibre
+# brew install discord
+brew install docker-edge
+brew install firefox-developer-edition
+# brew install google-chrome
+brew install google-cloud-sdk
+brew install gswitch
+# brew install mounty # Mount NTFS drives
+brew install iina
+brew install imageoptim
+# brew install insomnia
+brew install intel-power-gadget
+brew install microsoft-teams
+brew install ngrok
+# brew install openemu
+brew install openscad
+brew install postman
+brew install rescuetime
+brew install safari-technology-preview # From caskroom/versions
+brew install setapp
+brew install smooze
+brew install spotify
+brew install sublime-text-dev # From caskroom/versions
+# brew install steam
+brew install tableplus
+# brew install teamviewer
+brew install the-unarchiver
+brew install tower
+brew install transmission
+brew install ultimaker-cura
+brew install visual-studio-code
+# brew install vmware-fusion
+# brew install wireshark
+# brew install xld # X Lossless Decoder, converts FLAC to ALAC for iTunes playback
+brew install zoom
 
 
 ###############################################################################
@@ -93,4 +93,3 @@ mas install 1284863847		# Unsplash Wallpapers
 ###############################################################################
 
 brew cleanup
-brew cask cleanup
