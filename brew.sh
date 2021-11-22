@@ -21,8 +21,7 @@ brew update
 brew upgrade
 
 # Tap sources
-brew tap "caskroom/cask"
-brew tap "caskroom/cask-fonts"
+brew tap homebrew/cask-fonts
 brew tap "caskroom/cask-versions"
 brew tap "buo/cask-upgrade"
 brew tap "cjbassi/gotop"
