@@ -34,7 +34,12 @@ brew install safari-technology-preview # From homebrew/versions
 brew install setapp
 brew install smooze
 brew install spotify
+<<<<<<< HEAD
 brew install sublime-text # From homebrew/versions
+=======
+brew install sublime-text
+brew install sublime-merge
+>>>>>>> b1a3754 (Update sublime text and add sublime merge)
 # brew install steam
 brew install tableplus
 # brew install teamviewer
