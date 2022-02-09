@@ -9,9 +9,7 @@ brew install anydesk
 brew install appcleaner
 brew install autodesk-fusion360
 # brew install balenaetcher
-# brew install beardedspice
 brew install bettertouchtool
-# brew install cakebrew
 # brew install calibre
 # brew install discord
 brew install docker-edge
@@ -36,7 +34,7 @@ brew install smooze
 brew install spotify
 brew install sublime-text
 brew install sublime-merge
-# brew install steam
+brew install steam
 brew install tableplus
 # brew install teamviewer
 brew install the-unarchiver

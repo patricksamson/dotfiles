@@ -58,8 +58,7 @@ brew install gh 	# GitHub CLI tool
 
 # Install Misc utilities
 brew install cointop
-brew tap tarkah/tickrs
-brew install tickrs
+brew tap tarkah/tickrs && brew install tickrs
 
 # Copy config files
 rm ~/.gitignore_global
@@ -77,7 +76,6 @@ brew install php-code-sniffer
 brew install php-cs-fixer
 
 # Install Composer utilities
-# composer global require hirak/prestissimo
 composer global require laravel/installer laravel/valet laravel/envoy
 
 export PATH="$PATH:$HOME/.composer/vendor/bin"
