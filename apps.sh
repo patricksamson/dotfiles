@@ -34,12 +34,8 @@ brew install safari-technology-preview # From homebrew/versions
 brew install setapp
 brew install smooze
 brew install spotify
-<<<<<<< HEAD
-brew install sublime-text # From homebrew/versions
-=======
 brew install sublime-text
 brew install sublime-merge
->>>>>>> b1a3754 (Update sublime text and add sublime merge)
 # brew install steam
 brew install tableplus
 # brew install teamviewer
@@ -74,7 +70,6 @@ mas install 290986013       # Deliveries
 mas install 975937182       # Fantastical
 mas install 1544743900      # Hush
 mas install 1039633667		# Irvue
-mas install 1475897096      # Jira
 mas install 409183694		# Keynote
 mas install 926036361       # LastPass
 mas install 1295203466		# Microsoft Remote Desktop
