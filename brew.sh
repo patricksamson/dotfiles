@@ -93,7 +93,7 @@ ln -sfv /usr/local/opt/mariadb/*.plist ~/Library/LaunchAgents # Autostart using 
 
 # Install Node.js
 brew install node
-brew install yarn
+#brew install yarn
 
 # Fonts
 brew install font-hack-nerd-font # Hack Font patched with multiple icons and Powerline
@@ -105,6 +105,7 @@ brew install font-iosevka-nerd-font # Iosevka patched for Powerline
 brew install spotify
 brew install mpv
 brew install youtube-dl
+brew install yt-dlp
 brew install Rigellute/tap/spotify-tui # A Spotify client for the terminal.
 brew install Spotifyd/tap/spotifyd # A lightweight Spotify daemon.
 # brew install patricksamson/tap/spotifyd
