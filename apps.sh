@@ -4,29 +4,32 @@
 # Install applications using brew                                             #
 ###############################################################################
 
-# brew install alfred
+brew install 1password-cli
 brew install anydesk
 brew install appcleaner
 brew install autodesk-fusion360
-# brew install balenaetcher
+brew install balenaetcher
 brew install bettertouchtool
 # brew install calibre
 # brew install discord
-brew install docker-edge
+brew install docker --cask
 brew install firefox-developer-edition
 # brew install google-chrome
 brew install google-cloud-sdk
 brew install gswitch
-# brew install mounty # Mount NTFS drives
 brew install iina
 brew install imageoptim
-# brew install insomnia
 brew install intel-power-gadget
+brew install logitech-options
+brew install logitech-unifying
+brew install lunar
 brew install microsoft-teams
 brew install ngrok
 # brew install openemu
 brew install openscad
+brew install orion
 brew install postman
+brew install prusaslicer
 brew install rescuetime
 brew install safari-technology-preview # From homebrew/versions
 brew install setapp
@@ -36,7 +39,6 @@ brew install sublime-text
 brew install sublime-merge
 brew install steam
 brew install tableplus
-# brew install teamviewer
 brew install the-unarchiver
 brew install tower
 brew install transmission
@@ -58,16 +60,16 @@ brew install mas
 # Print the Apple account currently in use, or log into one?
 mas account
 
-mas install 1365531024		# 1Blocker
-mas install 1333542190		# 1Password 7
+mas install 1569813296		# 1Password for Safari
 mas install 477670270		# 2Do
-# mas install 1440147259	# AdGuard for Safari
+mas install 1440147259		# AdGuard for Safari
+mas install 1601151613	  	# Baking Soda
 mas install 425264550		# Blackmagic Speed Test
-# mas install 1236045954	# Canary Mail
 mas install 1364502317      # Clockify
+mas install 1438243180 		# Dark Reader for Safari
 mas install 290986013       # Deliveries
 mas install 975937182       # Fantastical
-# mas install 1544743900	# Hush
+mas install 1544743900		# Hush
 # mas install 1039633667	# Irvue
 mas install 409183694		# Keynote
 mas install 926036361       # LastPass
@@ -76,7 +78,7 @@ mas install 409203825		# Numbers
 mas install 409201541		# Pages
 mas install 639968404		# Parcel
 mas install 1515445551		# Pi-hole Remote
-# mas install 1518036000    # Sequel Ace
+mas install 1459275972 		# Playlisty
 mas install 803453959		# Slack
 mas install 1509611686      # Spaces
 mas install 747648890		# Telegram
