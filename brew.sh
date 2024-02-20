@@ -76,23 +76,21 @@ brew install php-code-sniffer
 brew install php-cs-fixer
 
 # Install Composer utilities
-composer global require laravel/installer laravel/valet laravel/envoy
+composer global require laravel/installer laravel/envoy
 
 export PATH="$PATH:$HOME/.composer/vendor/bin"
-valet install
+brew install herd
 mkdir -p ~/Projects
-valet park ~/Projects
-
-# Install Java
-# brew install java
+herd park ~/Projects
 
 # Install databases
-brew install mariadb
-sudo brew services restart mariadb # Run at boot, not at login
-ln -sfv /usr/local/opt/mariadb/*.plist ~/Library/LaunchAgents # Autostart using LaunchAgent
+brew install dbngin
+#brew install mariadb
+#sudo brew services restart mariadb # Run at boot, not at login
+#ln -sfv /usr/local/opt/mariadb/*.plist ~/Library/LaunchAgents # Autostart using LaunchAgent
 
 # Install Node.js
-brew install node
+#brew install node
 #brew install yarn
 
 # Fonts
