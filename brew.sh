@@ -102,13 +102,8 @@ brew install font-iosevka # View all variants : `brew search font-iosevka`
 brew install font-iosevka-nerd-font # Iosevka patched for Powerline
 
 # Media players
-brew install spotify
 brew install mpv
 brew install yt-dlp # Better youtube-dl
-brew install Rigellute/tap/spotify-tui # A Spotify client for the terminal.
-brew install Spotifyd/tap/spotifyd # A lightweight Spotify daemon.
-# brew install patricksamson/tap/spotifyd
-
 
 # Remove outdated versions from the cellar.
 brew cleanup
