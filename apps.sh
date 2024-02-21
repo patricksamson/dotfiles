@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Restore app settings using Mackup
+brew install 'mackup'
+mackup restore
+
 ###############################################################################
 # Install applications using brew                                             #
 ###############################################################################

@@ -6,15 +6,6 @@ source ./utils.sh
 # Install command-line tools using Homebrew                                   #
 ###############################################################################
 
-# Install Homebrew
-if type_exists 'brew'; then
-	e_success "Homebrew good to go."
-else
-	e_error "Homebrew should be installed. It isn't. Aborting."
-	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-	exit 1
-fi
-
 # Update sources and already-installed formulae.
 e_arrow "Updating Homebrew."
 brew update
@@ -51,6 +42,7 @@ brew install 'wakeonlan'
 brew install \
 	'ansible' \
 	'ansible-lint' \
+	'asdf' \
 	'azure-cli'
 
 # Install Git
@@ -93,8 +85,8 @@ brew install 'dbngin'
 #ln -sfv /usr/local/opt/mariadb/*.plist ~/Library/LaunchAgents # Autostart using LaunchAgent
 
 # Install Node.js
-#brew install node
-#brew install yarn
+brew install 'node'
+brew install 'yarn'
 
 # Fonts
 brew install 'font-hack-nerd-font' # Hack Font patched with multiple icons and Powerline
@@ -108,20 +100,3 @@ brew install 'yt-dlp' # Better youtube-dl
 
 # Remove outdated versions from the cellar.
 brew cleanup
-
-
-###############################################################################
-# Configure Zsh                                                               #
-###############################################################################
-
-# Switch to Zsh to run the following commands
-zsh
-
-# Install Prezto
-git clone --recursive https://github.com/patricksamson/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-
-# Create configuration files
-setopt EXTENDED_GLOB
-for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-done
