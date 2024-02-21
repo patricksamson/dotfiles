@@ -21,44 +21,47 @@ brew update
 brew upgrade
 
 # Tap sources
-brew tap homebrew/cask-fonts
-brew tap homebrew/cask-versions
-brew tap "buo/cask-upgrade"
-brew tap "cjbassi/gotop"
-brew tap "teamookla/speedtest"
+brew tap 'homebrew/cask-fonts'
+brew tap 'homebrew/cask-versions'
+brew tap 'homebrew/bundle'
+brew tap 'nicoverbruggen/homebrew-cask'
+brew tap 'stripe/stripe-cli'
+brew tap 'buo/cask-upgrade'
+brew tap 'cjbassi/gotop'
+brew tap 'teamookla/speedtest'
 
 # Install CLI tools
-brew install gotop
-brew install wget
-brew install zsh
-brew install zsh-completions
+brew install 'coreutils'
+brew install 'gotop'
+brew install 'wget'
+brew install 'zsh'
+brew install 'zsh-completions'
 
 # Install Network Tools
-brew install arp-scan
-brew install iperf3
-brew install namebench
-brew install ngrok
-brew install nmap 		# port scanning
-brew install prettyping
-brew install speedtest
-brew install wakeonlan
+brew install 'arp-scan'
+brew install 'iperf3'
+brew install 'namebench'
+brew install 'ngrok'
+brew install 'nmap'		# port scanning
+brew install 'prettyping'
+brew install 'speedtest'
+brew install 'wakeonlan'
 
 # DevOps
 brew install \
-	ansible \
-	ansible-lint \
-	azure-cli
+	'ansible' \
+	'ansible-lint' \
+	'azure-cli'
 
 # Install Git
-brew install git
-brew install git-lfs
-git lfs install
-brew install gpg
-brew install gh 	# GitHub CLI tool
+brew install 'git' \
+	'git-lfs' \
+	'gpg' \
+	'gh' \	# GitHub CLI tool
 
 # Install Misc utilities
-brew install cointop
-brew tap tarkah/tickrs && brew install tickrs
+brew install 'cointop'
+brew tap 'tarkah/tickrs' && brew install 'tickrs'
 
 # Copy config files
 rm ~/.gitignore_global
@@ -69,22 +72,22 @@ cp ./.editorconfig ~/.editorconfig
 # git config --global core.hooksPath ~/.git_template/hooks
 
 # Install PHP
-brew install php
-brew install composer
-brew install phpunit
-brew install php-code-sniffer
-brew install php-cs-fixer
+brew install 'php' \
+	'composer' \
+	'phpunit' \
+	'php-code-sniffer' \
+	'php-cs-fixer'
 
 # Install Composer utilities
 composer global require laravel/installer laravel/envoy
 
 export PATH="$PATH:$HOME/.composer/vendor/bin"
-brew install herd
+brew install 'herd'
 mkdir -p ~/Projects
 herd park ~/Projects
 
 # Install databases
-brew install dbngin
+brew install 'dbngin'
 #brew install mariadb
 #sudo brew services restart mariadb # Run at boot, not at login
 #ln -sfv /usr/local/opt/mariadb/*.plist ~/Library/LaunchAgents # Autostart using LaunchAgent
@@ -94,14 +97,14 @@ brew install dbngin
 #brew install yarn
 
 # Fonts
-brew install font-hack-nerd-font # Hack Font patched with multiple icons and Powerline
-brew install font-fira-code
-brew install font-iosevka # View all variants : `brew search font-iosevka`
-brew install font-iosevka-nerd-font # Iosevka patched for Powerline
+brew install 'font-hack-nerd-font' # Hack Font patched with multiple icons and Powerline
+brew install 'font-fira-code'
+brew install 'font-iosevka' # View all variants : `brew search font-iosevka`
+brew install 'font-iosevka-nerd-font' # Iosevka patched for Powerline
 
 # Media players
-brew install mpv
-brew install yt-dlp # Better youtube-dl
+brew install 'mpv'
+brew install 'yt-dlp' # Better youtube-dl
 
 # Remove outdated versions from the cellar.
 brew cleanup
