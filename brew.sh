@@ -92,6 +92,8 @@ brew install 'yarn'
 brew install 'font-hack-nerd-font' # Hack Font patched with multiple icons and Powerline
 brew install 'font-fira-code'
 brew install 'font-iosevka' # View all variants : `brew search font-iosevka`
+brew install 'font-iosevka-aile'
+brew install 'font-iosevka-etoile'
 brew install 'font-iosevka-nerd-font' # Iosevka patched for Powerline
 
 # Media players
